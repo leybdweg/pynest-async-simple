@@ -10,7 +10,7 @@ class ProviderData(BaseModel):
 
 
 class Stay(BaseModel):
-    request_id: str # | None
+    request_id: str | None
     ski_site: int
     from_date: str
     to_date: str
