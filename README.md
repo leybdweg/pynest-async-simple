@@ -23,9 +23,9 @@ python main.py
 2. Run service using uvicorn
 
 ```bash
-uvicorn "app:app" --host "0.0.0.0" --port "8000" --reload
+ uvicorn "src.app_module:http_server" --host "0.0.0.0" --port "8000" --reload
 ```
 
 ## Step 3 - Send requests
 
-Go to the fastapi docs and use your api endpoints - http://127.0.0.1/docs
+Go to the fastapi docs and use your api endpoints - http://127.0.0.1:8000/docs
